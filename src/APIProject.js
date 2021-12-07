@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './App.css';
 //import {BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 
 const APIProject = () => {
@@ -32,7 +33,7 @@ const APIProject = () => {
     }
     return (    
         <div className="App">
-            <div className="QuoteBox">
+            <div className="quoteBox">
                 <div className="container">
                     <h1>Quote Box</h1>
                     {loading ? <p>loading...</p>
